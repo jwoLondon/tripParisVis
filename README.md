@@ -13,7 +13,7 @@ The visualizations were originally developed in the [Mobv project](https://jwolo
 This repository contains:
 
 - [data specifications](https://github.com/jwoLondon/tripParisVis/tree/main/dataSpecifications)
-- [data](https://github.com/jwoLondon/tripParisVis/tree/main/data/paris)) as well as
+- [data](https://github.com/jwoLondon/tripParisVis/tree/main/data/paris) as well as
 - [visualization and front-end code](https://github.com/jwoLondon/tripParisVis/tree/main/docs)
 - [R output from negative binomial regression]()
   ...related to the paper. All code is open under the GNU General Public License v3.0. Data sources are listed in each directory. Zurich, Basel, New York and London data are all available as Open Data. German data are available from [hyStreet](hystreet.com) using their API.
