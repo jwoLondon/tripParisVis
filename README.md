@@ -16,8 +16,8 @@ This repository contains:
 - [data](https://github.com/jwoLondon/tripParisVis/tree/main/data/paris) as well as
 - [visualization and front-end code](https://github.com/jwoLondon/tripParisVis/tree/main/docs)
 - [R output from negative binomial regression]()
-  ...related to the paper. All code is open under the GNU General Public License v3.0. Data sources are listed in each directory. Zurich, Basel, New York and London data are all available as Open Data. German data are available from [hyStreet](hystreet.com) using their API.
-
+  ...related to the paper. All code is open under the GNU General Public License v3.0.
+  
 ## Team
 
 Conceived and implemented by
@@ -25,3 +25,5 @@ Conceived and implemented by
 - _[Ross Purves](https://twitter.com/GCUZH) – [Department of Geography, University of Zurich](https://www.geo.uzh.ch/~rsp/)_
 - _[Ralph Straumann](https://twitter.com/rastrau) – [EBP, Data Science Team, Zurich](https://www.ebp.ch)_
 - _[Jo Wood](https://twitter.com/jwolondon) – [giCentre, City University London](https://www.gicentre.net/jwo)_
+
+Data preparation and statistical analysis by Stefan Ivanovic – Department of Geography, University of Zurich
