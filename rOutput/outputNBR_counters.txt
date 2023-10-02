@@ -1,0 +1,152 @@
+   Length     Class      Mode 
+     8780 character character 
+Model m0_counters:
+
+Call:
+glm.nb(formula = count_counters ~ precipitation_counters + insolation_counters + 
+    temperature_counters + stringency_counters, data = distribution_counters, 
+    init.theta = 0.9015440698, link = log)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)             4.4327866  0.0325107 136.349   <2e-16 ***
+precipitation_counters -0.0217400  0.0237216  -0.916    0.359    
+insolation_counters     0.0088307  0.0005543  15.932   <2e-16 ***
+temperature_counters    0.0463458  0.0018304  25.320   <2e-16 ***
+stringency_counters    -0.0118080  0.0004297 -27.479   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9015) family taken to be 1)
+
+    Null deviance: 11942  on 8779  degrees of freedom
+Residual deviance: 10195  on 8775  degrees of freedom
+AIC: 97729
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9015 
+          Std. Err.:  0.0123 
+
+ 2 x log-likelihood:  -97716.5540 
+Model m1q1_counters:
+
+Call:
+glm.nb(formula = count_counters ~ precipitation_counters + insolation_counters + 
+    temperature_counters + stringency_counters, data = cq1, init.theta = 0.9015440698, 
+    link = log)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)             4.4327866  0.0325107 136.349   <2e-16 ***
+precipitation_counters -0.0217400  0.0237216  -0.916    0.359    
+insolation_counters     0.0088307  0.0005543  15.932   <2e-16 ***
+temperature_counters    0.0463458  0.0018304  25.320   <2e-16 ***
+stringency_counters    -0.0118080  0.0004297 -27.479   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9015) family taken to be 1)
+
+    Null deviance: 11942  on 8779  degrees of freedom
+Residual deviance: 10195  on 8775  degrees of freedom
+AIC: 97729
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9015 
+          Std. Err.:  0.0123 
+
+ 2 x log-likelihood:  -97716.5540 
+Model m2q2_counters:
+
+Call:
+glm.nb(formula = count_counters ~ precipitation_counters + insolation_counters + 
+    temperature_counters + stringency_counters, data = cq2, init.theta = 0.9015440698, 
+    link = log)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)             4.4327866  0.0325107 136.349   <2e-16 ***
+precipitation_counters -0.0217400  0.0237216  -0.916    0.359    
+insolation_counters     0.0088307  0.0005543  15.932   <2e-16 ***
+temperature_counters    0.0463458  0.0018304  25.320   <2e-16 ***
+stringency_counters    -0.0118080  0.0004297 -27.479   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9015) family taken to be 1)
+
+    Null deviance: 11942  on 8779  degrees of freedom
+Residual deviance: 10195  on 8775  degrees of freedom
+AIC: 97729
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9015 
+          Std. Err.:  0.0123 
+
+ 2 x log-likelihood:  -97716.5540 
+Model m3q3_counters:
+
+Call:
+glm.nb(formula = count_counters ~ precipitation_counters + insolation_counters + 
+    temperature_counters + stringency_counters, data = cq3, init.theta = 0.9015440698, 
+    link = log)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)             4.4327866  0.0325107 136.349   <2e-16 ***
+precipitation_counters -0.0217400  0.0237216  -0.916    0.359    
+insolation_counters     0.0088307  0.0005543  15.932   <2e-16 ***
+temperature_counters    0.0463458  0.0018304  25.320   <2e-16 ***
+stringency_counters    -0.0118080  0.0004297 -27.479   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9015) family taken to be 1)
+
+    Null deviance: 11942  on 8779  degrees of freedom
+Residual deviance: 10195  on 8775  degrees of freedom
+AIC: 97729
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9015 
+          Std. Err.:  0.0123 
+
+ 2 x log-likelihood:  -97716.5540 
+Model m4q4_counters:
+
+Call:
+glm.nb(formula = count_counters ~ precipitation_counters + insolation_counters + 
+    temperature_counters + stringency_counters, data = cq4, init.theta = 0.9015440698, 
+    link = log)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)             4.4327866  0.0325107 136.349   <2e-16 ***
+precipitation_counters -0.0217400  0.0237216  -0.916    0.359    
+insolation_counters     0.0088307  0.0005543  15.932   <2e-16 ***
+temperature_counters    0.0463458  0.0018304  25.320   <2e-16 ***
+stringency_counters    -0.0118080  0.0004297 -27.479   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9015) family taken to be 1)
+
+    Null deviance: 11942  on 8779  degrees of freedom
+Residual deviance: 10195  on 8775  degrees of freedom
+AIC: 97729
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9015 
+          Std. Err.:  0.0123 
+
+ 2 x log-likelihood:  -97716.5540 

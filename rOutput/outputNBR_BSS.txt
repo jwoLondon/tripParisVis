@@ -1,0 +1,150 @@
+Model m1_bss:
+
+Call:
+glm.nb(formula = count_bss ~ precipitation_bss + insolation_bss + 
+    temperature_bss + stringency_bss, data = distribution_bss, 
+    init.theta = 1.556836348, link = log)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.761933   0.025028 150.309  < 2e-16 ***
+precipitation_bss -0.032045   0.018339  -1.747   0.0806 .  
+insolation_bss     0.003407   0.000427   7.981 1.45e-15 ***
+temperature_bss    0.043278   0.001410  30.685  < 2e-16 ***
+stringency_bss    -0.008849   0.000331 -26.730  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.5568) family taken to be 1)
+
+    Null deviance: 11432.5  on 8755  degrees of freedom
+Residual deviance:  9683.6  on 8751  degrees of freedom
+AIC: 85714
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.5568 
+          Std. Err.:  0.0230 
+
+ 2 x log-likelihood:  -85701.8290 
+Model m1q1_bss:
+
+Call:
+glm.nb(formula = count_bss ~ precipitation_bss + insolation_bss + 
+    temperature_bss + stringency_bss, data = bssq1, init.theta = 1.556836348, 
+    link = log)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.761933   0.025028 150.309  < 2e-16 ***
+precipitation_bss -0.032045   0.018339  -1.747   0.0806 .  
+insolation_bss     0.003407   0.000427   7.981 1.45e-15 ***
+temperature_bss    0.043278   0.001410  30.685  < 2e-16 ***
+stringency_bss    -0.008849   0.000331 -26.730  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.5568) family taken to be 1)
+
+    Null deviance: 11432.5  on 8755  degrees of freedom
+Residual deviance:  9683.6  on 8751  degrees of freedom
+AIC: 85714
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.5568 
+          Std. Err.:  0.0230 
+
+ 2 x log-likelihood:  -85701.8290 
+Model m1q2_bss:
+
+Call:
+glm.nb(formula = count_bss ~ precipitation_bss + insolation_bss + 
+    temperature_bss + stringency_bss, data = bssq2, init.theta = 1.556836348, 
+    link = log)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.761933   0.025028 150.309  < 2e-16 ***
+precipitation_bss -0.032045   0.018339  -1.747   0.0806 .  
+insolation_bss     0.003407   0.000427   7.981 1.45e-15 ***
+temperature_bss    0.043278   0.001410  30.685  < 2e-16 ***
+stringency_bss    -0.008849   0.000331 -26.730  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.5568) family taken to be 1)
+
+    Null deviance: 11432.5  on 8755  degrees of freedom
+Residual deviance:  9683.6  on 8751  degrees of freedom
+AIC: 85714
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.5568 
+          Std. Err.:  0.0230 
+
+ 2 x log-likelihood:  -85701.8290 
+Model m1q3_bss:
+
+Call:
+glm.nb(formula = count_bss ~ precipitation_bss + insolation_bss + 
+    temperature_bss + stringency_bss, data = bssq3, init.theta = 1.556836348, 
+    link = log)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.761933   0.025028 150.309  < 2e-16 ***
+precipitation_bss -0.032045   0.018339  -1.747   0.0806 .  
+insolation_bss     0.003407   0.000427   7.981 1.45e-15 ***
+temperature_bss    0.043278   0.001410  30.685  < 2e-16 ***
+stringency_bss    -0.008849   0.000331 -26.730  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.5568) family taken to be 1)
+
+    Null deviance: 11432.5  on 8755  degrees of freedom
+Residual deviance:  9683.6  on 8751  degrees of freedom
+AIC: 85714
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.5568 
+          Std. Err.:  0.0230 
+
+ 2 x log-likelihood:  -85701.8290 
+Model m1q4_bss:
+
+Call:
+glm.nb(formula = count_bss ~ precipitation_bss + insolation_bss + 
+    temperature_bss + stringency_bss, data = bssq4, init.theta = 1.556836348, 
+    link = log)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.761933   0.025028 150.309  < 2e-16 ***
+precipitation_bss -0.032045   0.018339  -1.747   0.0806 .  
+insolation_bss     0.003407   0.000427   7.981 1.45e-15 ***
+temperature_bss    0.043278   0.001410  30.685  < 2e-16 ***
+stringency_bss    -0.008849   0.000331 -26.730  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.5568) family taken to be 1)
+
+    Null deviance: 11432.5  on 8755  degrees of freedom
+Residual deviance:  9683.6  on 8751  degrees of freedom
+AIC: 85714
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.5568 
+          Std. Err.:  0.0230 
+
+ 2 x log-likelihood:  -85701.8290 
