@@ -7,7 +7,14 @@ You can explore data here:
 - Public bicycle hire use across [Paris](docs/paris/).
 - Bicycle counters [Paris](docs/parisCounter/).
 
-This repository is a fork of the original mobv project, 
-#### We need your help
+This repository is a fork of the original mobv project, which was implemented during the Covid-19 pandemic. You can find the original visualizations and more [here](https://jwolondon.github.io/mobv/). 
 
-Do you want to see other cities visualized? Point us to other open source data on travel volumes around a city by [raising an issue](https://github.com/jwoLondon/mobv/issues) and we will add them here. Alternatively you can contribute by [building your own](https://github.com/jwoLondon/mobv#build-your-own) and [making a pull request](https://github.com/jwoLondon/mobv).
+## Original team
+
+The original project was conceived and implemented by:
+
+- _[Ross Purves](https://twitter.com/GCUZH) – [Department of Geography, University of Zurich](https://www.geo.uzh.ch/~rsp/)_
+- _[Ralph Straumann](https://twitter.com/rastrau) – [EBP, Data Science Team, Zurich](https://www.ebp.ch)_
+- _[Jo Wood](https://twitter.com/jwolondon) – [giCentre, City University London](https://www.gicentre.net/jwo)_
+
+Stefan Ivanovic joined us to collect data and create visualizations for Paris.
