@@ -8,21 +8,27 @@ https://parisdata.opendatasoft.com/explore/dataset/comptage-velo-compteurs/infor
 
 The following files are provided here, which were used to create visualizations and for the statistical modelling in the paper. 
 
-ParisHourlyCount.csv
-ParisHourlyCountCounters.csv
+Hourly counts
+- ParisHourlyCount.csv
+- ParisHourlyCountCounters.csv
 Global average hourly counts for bike sharing system and bike counters for 2020.
 
-StationDailyTimeSeries.csv
-StationDailyTimeSeriesCounters.csv
+Daily time series
+- StationDailyTimeSeries.csv
+- StationDailyTimeSeriesCounters.csv
 Daily counts of bicycle movements for bike sharing system and bike counters for 2020.
 
-StationReference.csv
-StationReferenceCounters.csv
+Daily reference counts
+- StationReference.csv
+- StationReferenceCounters.csv
 Daily reference counts for Sunday to Saturday which are used to calculate daily anomalies. The periods over which these references are calculated are described in the paper.
 
-StationLocations.csv
-StationLocationsCounters.csv
+Station locations
+- StationLocations.csv
+- StationLocationsCounters.csv
 Locations of bike sharing system and bike counter stations in Paris.
+
+Annotations
 
 annotations.csv
 Descriptions of Covid-19 relevant events used to annotate figures.
